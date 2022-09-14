@@ -1,0 +1,570 @@
+function Ds()
+	setclipboard("discord.gg/W7VHxeP4ks")
+end
+--[[----------------------Instance----------------------]]
+-----------------------GUI-Fondation----------------------
+local ScreenGui = Instance.new("ScreenGui")
+local FirstGUI = Instance.new("Frame")
+local GUI = Instance.new("Frame")
+local GUIImage = Instance.new("Frame")
+local CloseButton = Instance.new("ImageButton")
+local MenuButton = Instance.new("ImageButton")
+local Title = Instance.new("TextLabel")
+--------------------------Home----------------------------
+local Image1 = Instance.new("ImageButton")
+local G1Home = Instance.new("Frame")
+local G1Home1 = Instance.new("Frame")
+local G1Home2 = Instance.new("Frame")
+local G1Image = Instance.new("ImageLabel")
+local G1Text1 = Instance.new("TextLabel")
+local G1Update = Instance.new("TextLabel")
+-------------------------Script---------------------------
+local Image2 = Instance.new("ImageButton")
+local G2Script = Instance.new("Frame")
+local G2Script1 = Instance.new("Frame")
+local G2Script2 = Instance.new("Frame")
+local G2Script3 = Instance.new("Frame")
+local G2Text2 = Instance.new("TextLabel")
+local G2DiscordButton = Instance.new("ImageButton")
+local G2Text1 = Instance.new("TextLabel")
+local G2ScrollingFrame = Instance.new("ScrollingFrame")
+------------------------Commande--------------------------
+local Image3 = Instance.new("ImageButton")
+local G3CMD = Instance.new("Frame")
+local G3CMD1 = Instance.new("Frame")
+local G3CMD2 = Instance.new("Frame")
+local G3Text1 = Instance.new("TextLabel")
+local G3TextBox = Instance.new("TextBox")
+-------------------------Option---------------------------
+local Image4 = Instance.new("ImageButton")
+local G4Option = Instance.new("Frame")
+local G4Option1 = Instance.new("Frame")
+local G4ScrollingFrame = Instance.new("ScrollingFrame")
+local G4Title1 = Instance.new("TextLabel")
+local G4Title2 = Instance.new("TextLabel")
+local G4Option2 = Instance.new("Frame")
+local G4TextBox1 = Instance.new("TextBox")
+local G4TextButton1 = Instance.new("TextButton")
+----------------------Credit-Owner------------------------
+local Image5 = Instance.new("ImageButton")
+local G5Owner = Instance.new("Frame")
+local G5Owner1 = Instance.new("Frame")
+local G5Image = Instance.new("ImageLabel")
+local G5Text1 = Instance.new("TextLabel")
+local G5Text2 = Instance.new("TextLabel")
+local G5Text3 = Instance.new("TextLabel")
+local G5Image2 = Instance.new("ImageLabel")
+local G5Image3 = Instance.new("ImageLabel")
+local G5Image4 = Instance.new("ImageLabel")
+------------------------UICorner--------------------------
+local UICornerG5Owner1 = Instance.new("UICorner")
+local UICornerG4Option2 = Instance.new("UICorner")
+local UICornerG4Title2 = Instance.new("UICorner")
+local UICornerG1Home1 = Instance.new("UICorner")
+local UICornerG4Title1 = Instance.new("UICorner")
+local UICornerG4Option1 = Instance.new("UICorner")
+local UICornerG1Home2 = Instance.new("UICorner")
+local UICornerG2Script1 = Instance.new("UICorner")
+local UICornerG3CMD2 = Instance.new("UICorner")
+local UICornerG2Script2 = Instance.new("UICorner")
+local UICornerG2Script3 = Instance.new("UICorner")
+local UICornerG1Image = Instance.new("UICorner")
+local UICornerG3CMD1 = Instance.new("UICorner")
+local UICornerG4Option4 = Instance.new("UICorner")
+local UICornerG5Owner5 = Instance.new("UICorner")
+local UICornerGUI = Instance.new("UICorner")
+local UICornerFirstGUI = Instance.new("UICorner")
+local UICornerTitle = Instance.new("UICorner")
+local UICornerMenuButton = Instance.new("UICorner")
+local UICornerCloseButton = Instance.new("UICorner")
+local UICornerGUIImage = Instance.new("UICorner")
+--[[-----------------------PreSet-----------------------]]
+------------------------UICorner--------------------------
+ScreenGui.Parent = game.CoreGui
+UICornerG5Owner1.Parent = G5Owner1
+UICornerG4Title2.Parent = G4Title2
+UICornerG4Option2.Parent = G4Option2
+UICornerG4Title1.Parent = G4Title1
+UICornerGUI.Parent = GUI
+UICornerFirstGUI.Parent = FirstGUI
+UICornerGUIImage.Parent = GUIImage
+UICornerTitle.Parent = Title
+UICornerCloseButton.Parent = CloseButton
+UICornerMenuButton.Parent = MenuButton
+UICornerG1Home1.Parent = G1Home1
+UICornerG1Home2.Parent = G1Home2
+UICornerG3CMD1.Parent = G3CMD1
+UICornerG3CMD2.Parent = G3CMD2
+UICornerG4Option4.Parent = G4Option
+UICornerG5Owner5.Parent = G5Owner
+UICornerG1Image.Parent = G1Image
+UICornerG2Script1.Parent = G2Script1
+UICornerG2Script2.Parent = G2Script2
+UICornerG2Script3.Parent = G2Script3
+UICornerG4Option1.Parent = G4Option1
+--[[-------------------Principal-GUI--------------------]]
+------------------------FirstGUI--------------------------
+FirstGUI.Name = "GUI"
+FirstGUI.Parent = ScreenGui
+FirstGUI.BackgroundColor3 = Color3.fromRGB(0,0,0)
+FirstGUI.Position = UDim2.new(0.348986119, 0, 0.369458109, 0)
+FirstGUI.Size = UDim2.new(0, 450, 0, 280)
+FirstGUI.Active = true
+FirstGUI.Draggable = true
+FirstGUI.Visible = true
+------------------------GUIImage--------------------------
+GUIImage.Name = "GUIImage"
+GUIImage.Parent = FirstGUI
+GUIImage.BackgroundColor3 = Color3.fromRGB(212,175,55)
+GUIImage.Position = UDim2.new(0, -60, 0, 0)
+GUIImage.Size = UDim2.new(0, 90, 0, 280)
+GUIImage.Visible = false
+--------------------------GUI-----------------------------
+GUI.Name = "GUI"
+GUI.Parent = FirstGUI
+GUI.BackgroundColor3 = Color3.fromRGB(0,0,0)
+GUI.Position = UDim2.new(0, 0, 0, 0)
+GUI.Size = UDim2.new(0, 450, 0, 280)
+-------------------------Title----------------------------
+Title.Name = "Title"
+Title.Parent = GUI
+Title.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Title.Size = UDim2.new(0, 440, 0, 20)
+Title.BorderSizePixel = 0
+Title.TextXAlignment = Enum.TextXAlignment.Left
+Title.Font = Enum.Font.GothamBold
+Title.Text = "      DarkScriptHub"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 14.000
+-----------------------MenuButton-------------------------
+MenuButton.Name = "MenuButton"
+MenuButton.Parent = Title
+MenuButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+MenuButton.BorderSizePixel = 0
+MenuButton.Position = UDim2.new(0, 0, 0, 0)
+MenuButton.Size = UDim2.new(0, 20, 0, 20)
+MenuButton.Image = 'rbxassetid://10768139127'
+MenuButton.MouseButton1Click:Connect(function()
+	if GUIImage.Visible == true then
+		GUIImage.Visible = false
+	else GUIImage.Visible = true end
+end)
+-----------------------CloseButton------------------------
+CloseButton.Name = "CloseButton"
+CloseButton.Parent = GUI
+CloseButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+CloseButton.BorderSizePixel = 0
+CloseButton.Position = UDim2.new(0, 430, 0, 0)
+CloseButton.Size = UDim2.new(0, 20, 0, 20)
+CloseButton.Image = 'rbxassetid://10764303701'
+CloseButton.MouseButton1Click:Connect(function()
+	ScreenGui:Destroy()
+end)
+--[[------------------------HOME------------------------]]
+-------------------------Image1---------------------------  
+Image1.Name = "CloseButton"
+Image1.Parent = GUIImage
+Image1.BackgroundColor3 = Color3.fromRGB(212,175,55)
+Image1.BorderSizePixel = 0
+Image1.Position = UDim2.new(0, 5, 0, 5)
+Image1.Size = UDim2.new(0, 50, 0, 50)
+Image1.Image = 'rbxassetid://10768345471'
+Image1.MouseButton1Click:Connect(function()
+	G1Home.Visible = true
+	G2Script.Visible = false
+	G3CMD.Visible = false
+	G4Option.Visible = false
+	G5Owner.Visible = false
+end)
+-------------------------G1Home---------------------------  
+G1Home.Name = "GUI1"
+G1Home.Parent = GUI
+G1Home.Position = UDim2.new(0, 0, 0, 0)
+G1Home.Size = UDim2.new(0, 450, 0, 280)
+G1Home.Visible = true
+G1Home.BackgroundTransparency = 1
+-------------------------G1Home1--------------------------
+G1Home1.Name = "GUI1"
+G1Home1.Parent = G1Home
+G1Home1.BackgroundColor3 = Color3.fromRGB(30,30,30)
+G1Home1.Position = UDim2.new(0, 20, 0, 40)
+G1Home1.Size = UDim2.new(0, 410, 0, 100)
+-------------------------G1Home2--------------------------
+G1Home2.Name = "GUI1"
+G1Home2.Parent = G1Home
+G1Home2.BackgroundColor3 = Color3.fromRGB(30,30,30)
+G1Home2.Position = UDim2.new(0, 20, 0, 160)
+G1Home2.Size = UDim2.new(0, 410, 0, 100)
+-------------------------G1Image--------------------------
+local Ps = game:GetService("Players")
+local player = Ps.LocalPlayer
+local UserId = player.UserId
+
+local Url = Ps:GetUserThumbnailAsync(UserId, Enum.ThumbnailType.AvatarThumbnail, Enum.ThumbnailSize.Size420x420)
+G1Image.Name = "G1Image"
+G1Image.Parent = G1Home1
+G1Image.BackgroundColor3 = Color3.fromRGB(30,30,30)
+G1Image.Position = UDim2.new(0, 25, 0, 20)
+G1Image.Size = UDim2.new(0, 40, 0, 40)
+G1Image.Image = Url
+-------------------------G1Text1--------------------------
+G1Text1.Name = "G1Text1"
+G1Text1.Parent = G1Home1
+G1Text1.Position = UDim2.new(0, 50, 0, 20)
+G1Text1.Size = UDim2.new(0, 283, 0, 31)
+G1Text1.Font = Enum.Font.GothamBold
+G1Text1.Text = "Welcome,"..game:GetService("Players").LocalPlayer.Name
+G1Text1.TextColor3 = Color3.fromRGB(255, 255, 255)
+G1Text1.TextSize = 20.000
+G1Text1.BackgroundTransparency = 1
+------------------------G1Update--------------------------
+G1Update.Name = "G1Update"
+G1Update.Parent = G1Home2
+G1Update.Position = UDim2.new(0, 10, 0, 10)
+G1Update.Size = UDim2.new(0, 390, 0, 100)
+G1Update.BackgroundTransparency = 1
+G1Update.BorderSizePixel = 0
+G1Update.Font = Enum.Font.GothamBold
+G1Update.TextXAlignment = Enum.TextXAlignment.Left
+G1Update.TextYAlignment = Enum.TextYAlignment.Top
+G1Update.Text = "Update :\n\nI have finish a GUI"
+G1Update.TextColor3 = Color3.fromRGB(255, 255, 255)
+G1Update.TextSize = 14.000
+--[[-----------------------Script-----------------------]]
+-------------------------Image2---------------------------
+Image2.Name = "CloseButton"
+Image2.Parent = GUIImage
+Image2.BackgroundColor3 = Color3.fromRGB(212,175,55)
+Image2.BorderSizePixel = 0
+Image2.Position = UDim2.new(0, 5, 0, 60)
+Image2.Size = UDim2.new(0, 50, 0, 50)
+Image2.Image = 'rbxassetid://10768343020'
+Image2.MouseButton1Click:Connect(function()
+	G1Home.Visible = false
+	G2Script.Visible = true
+	G3CMD.Visible = false
+	G4Option.Visible = false
+	G5Owner.Visible = false
+end)
+------------------------G2Script--------------------------
+G2Script.Name = "GUI1"
+G2Script.Parent = GUI
+G2Script.Position = UDim2.new(0, 0, 0, 0)
+G2Script.Size = UDim2.new(0, 450, 0, 280)
+G2Script.Visible = false
+G2Script.BackgroundTransparency = 1
+------------------------G2Script1-------------------------
+G2Script1.Name = "G2Script1"
+G2Script1.Parent = G2Script
+G2Script1.BackgroundColor3 = Color3.fromRGB(30,30,30)
+G2Script1.Position = UDim2.new(0, 20, 0, 40)
+G2Script1.Size = UDim2.new(0, 290, 0, 100)
+-------------------------G2Text1--------------------------
+G2Text1.Name = "G2Text1"
+G2Text1.Parent = G2Script1
+G2Text1.Position = UDim2.new(0, 10, 0, 10)
+G2Text1.Size = UDim2.new(0, 270, 0, 80)
+G2Text1.BackgroundTransparency = 1
+G2Text1.BorderSizePixel = 0
+G2Text1.Font = Enum.Font.GothamBold
+G2Text1.Text = "the game is not listed in the supported game\n\nyou can click on the discord logo to\nhave the discord server link and be able\nto make a suggestion of games added\nto the list"
+G2Text1.TextColor3 = Color3.fromRGB(255, 255, 255)
+G2Text1.TextSize = 13.000
+------------------------G2Script2-------------------------
+G2Script2.Name = "G2Script2"
+G2Script2.Parent = G2Script
+G2Script2.BackgroundColor3 = Color3.fromRGB(30,30,30)
+G2Script2.Position = UDim2.new(0, 330, 0, 40)
+G2Script2.Size = UDim2.new(0, 100, 0, 100)
+--------------------G2DiscordButton-----------------------
+G2DiscordButton.Name = "G2DiscordButton"
+G2DiscordButton.Parent = G2Script2
+G2DiscordButton.BackgroundColor3 = Color3.fromRGB(30,30,30)
+G2DiscordButton.BorderSizePixel = 0
+G2DiscordButton.Position = UDim2.new (0, 5, 0, 5)
+G2DiscordButton.Size = UDim2.new(0, 90, 0, 90)
+G2DiscordButton.Image = 'rbxassetid://10776751442'
+G2DiscordButton.MouseButton1Click:Connect(function()
+	Ds()
+end)
+------------------------G2Script3--------------------------
+G2Script3.Name = "G2Script3"
+G2Script3.Parent = G2Script
+G2Script3.BackgroundColor3 = Color3.fromRGB(30,30,30)
+G2Script3.Position = UDim2.new(0, 20, 0, 160)
+G2Script3.Size = UDim2.new(0, 410, 0, 100)
+------------------------G2ScrollingFrame--------------------------
+G2ScrollingFrame.Name = "G2Script3"
+G2ScrollingFrame.Parent = G2Script3
+G2ScrollingFrame.BorderSizePixel = 0
+G2ScrollingFrame.BackgroundColor3 = Color3.fromRGB(30,30,30)
+G2ScrollingFrame.Position = UDim2.new(0, 5, 0, 5)
+G2ScrollingFrame.Size = UDim2.new(0, 400, 0, 90)
+------------------------G2Text2--------------------------
+G2Text2.Name = "G2Text1"
+G2Text2.Parent = G2ScrollingFrame
+G2Text2.Position = UDim2.new(0, 5, 0, 5)
+G2Text2.Size = UDim2.new(0, 390, 0, 80)
+G2Text2.BackgroundTransparency = 1
+G2Text2.BorderSizePixel = 0
+G2Text2.Font = Enum.Font.GothamBold
+G2Text2.TextXAlignment = Enum.TextXAlignment.Left
+G2Text2.TextYAlignment = Enum.TextYAlignment.Top
+G2Text2.Text = "Supported-Games :\nnothig"
+G2Text2.TextColor3 = Color3.fromRGB(255, 255, 255)
+G2Text2.TextSize = 13.000
+--[[-----------------------CMD------------------------]]
+------------------------Image3--------------------------
+Image3.Name = "CloseButton"
+Image3.Parent = GUIImage
+Image3.BackgroundColor3 = Color3.fromRGB(212,175,55)
+Image3.BorderSizePixel = 0
+Image3.Position = UDim2.new(0, 5, 0, 115)
+Image3.Size = UDim2.new(0, 50, 0, 50)
+Image3.Image = 'rbxassetid://10768327995'
+Image3.MouseButton1Click:Connect(function()
+	G1Home.Visible = false
+	G2Script.Visible = false
+	G3CMD.Visible = true
+	G4Option.Visible = false
+	G5Owner.Visible = false
+end)
+------------------------G3CMD--------------------------
+G3CMD.Name = "GUI1"
+G3CMD.Parent = GUI
+G3CMD.Position = UDim2.new(0, 0, 0, 0)
+G3CMD.Size = UDim2.new(0, 450, 0, 280)
+G3CMD.Visible = false
+G3CMD.BackgroundTransparency = 1
+------------------------G3CMD1--------------------------
+G3CMD1.Name = "G3CMD1"
+G3CMD1.Parent = G3CMD
+G3CMD1.BackgroundColor3 = Color3.fromRGB(30,30,30)
+G3CMD1.Position = UDim2.new(0, 20, 0, 40)
+G3CMD1.Size = UDim2.new(0, 410, 0, 220)
+------------------------G3Text1--------------------------
+G3Text1.Name = "G1Text1"
+G3Text1.Parent = G3CMD1
+G3Text1.Position = UDim2.new(0, 5, 0, 5)
+G3Text1.Size = UDim2.new(0, 400, 0, 155)
+G3Text1.Font = Enum.Font.GothamBold
+G3Text1.TextXAlignment = Enum.TextXAlignment.Left
+G3Text1.TextYAlignment = Enum.TextYAlignment.Bottom
+G3Text1.Text = "[CMD] >> Hello world"
+G3Text1.TextColor3 = Color3.fromRGB(255, 255, 255)
+G3Text1.TextSize = 14.000
+G3Text1.BackgroundTransparency = 1
+------------------------G3CMD2--------------------------
+G3CMD2.Name = "G3CMD1"
+G3CMD2.Parent = G3CMD1
+G3CMD2.BorderSizePixel = 0
+G3CMD2.BackgroundColor3 = Color3.fromRGB(212,175,55)
+G3CMD2.Position = UDim2.new(0, 0, 0, 165)
+G3CMD2.Size = UDim2.new(0, 410, 0, 5)
+------------------------G3TextBox--------------------------
+G3TextBox.Name = "G1Text1"
+G3TextBox.Parent = G3CMD1
+G3TextBox.BorderSizePixel = 0
+G3TextBox.Position = UDim2.new(0, 0, 0, 170)
+G3TextBox.Size = UDim2.new(0, 410, 0, 50)
+G3TextBox.Font = Enum.Font.GothamBold
+G3TextBox.Text = "_________Write Commande Here_________"
+G3TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+G3TextBox.TextSize = 20.000
+G3TextBox.BackgroundTransparency = 1
+--[[--------------------Option------------------------]]
+------------------------Image4--------------------------
+Image4.Name = "CloseButton"
+Image4.Parent = GUIImage
+Image4.BackgroundColor3 = Color3.fromRGB(212,175,55)
+Image4.BorderSizePixel = 0
+Image4.Position = UDim2.new(0, 5, 0, 170)
+Image4.Size = UDim2.new(0, 50, 0, 50)
+Image4.Image = 'rbxassetid://10768324103'
+Image4.MouseButton1Click:Connect(function()
+	G1Home.Visible = false
+	G2Script.Visible = false
+	G3CMD.Visible = false
+	G4Option.Visible = true
+	G5Owner.Visible = false
+end)
+------------------------G4Option--------------------------
+G4Option.Name = "G4Option"
+G4Option.Parent = GUI
+G4Option.Position = UDim2.new(0, 0, 0, 0)
+G4Option.Size = UDim2.new(0, 450, 0, 280)
+G4Option.Visible = false
+G4Option.BackgroundTransparency = 1
+------------------------G4Option1-------------------------
+G4Option1.Name = "G4Option1"
+G4Option1.Parent = G4Option
+G4Option1.BackgroundColor3 = Color3.fromRGB(30,30,30)
+G4Option1.Position = UDim2.new(0, 20, 0, 40)
+G4Option1.Size = UDim2.new(0, 410, 0, 220)
+---------------------G4ScrollingFrame---------------------
+G4ScrollingFrame.Name = "G4ScrollingFrame"
+G4ScrollingFrame.Parent = G4Option1
+G4ScrollingFrame.BorderSizePixel = 0
+G4ScrollingFrame.BackgroundColor3 = Color3.fromRGB(30,30,30)
+G4ScrollingFrame.Position = UDim2.new(0, 5, 0, 5)
+G4ScrollingFrame.Size = UDim2.new(0, 400, 0, 210)
+------------------------G4Title1------------------------
+G4Title1.Name = "G4Title1"
+G4Title1.Parent = G4ScrollingFrame
+G4Title1.BackgroundColor3 = Color3.fromRGB(212,175,55)
+G4Title1.Position = UDim2.new(0, 5, 0, 5)
+G4Title1.Size = UDim2.new(0, 380, 0, 50)
+G4Title1.Text = "Option"
+G4Title1.TextColor3 = Color3.fromRGB(255,255,255)
+G4Title1.TextSize = 30
+------------------------G4Title2------------------------
+G4Title2.Name = "G4Title2"
+G4Title2.Parent = G4ScrollingFrame
+G4Title2.BackgroundColor3 = Color3.fromRGB(212,175,55)
+G4Title2.Position = UDim2.new(0, 5, 0, 60)
+G4Title2.Size = UDim2.new(0, 187.5, 0, 50)
+G4Title2.Text = "  Hide GUI"
+G4Title2.Font = Enum.Font.GothamBold
+G4Title2.TextXAlignment = Enum.TextXAlignment.Left
+G4Title2.TextColor3 = Color3.fromRGB(255,255,255)
+G4Title2.TextSize = 30
+-----------------------G4TextBox1-----------------------
+KeyHideGUI = "j"
+G4TextBox1.Name = "G4TextBox1"
+G4TextBox1.Parent = G4Title2
+G4TextBox1.BorderSizePixel = 0
+G4TextBox1.Position = UDim2.new(0, 137.5, 0, 0)
+G4TextBox1.Size = UDim2.new(0, 50, 0, 50)
+G4TextBox1.Font = Enum.Font.GothamBold
+G4TextBox1.Text = KeyHideGUI
+G4TextBox1.TextColor3 = Color3.fromRGB(255, 255, 255)
+G4TextBox1.TextSize = 30
+G4TextBox1.BackgroundTransparency = 1
+------------------------G4Option2------------------------
+G4Option2.Name = "G4Option2"
+G4Option2.Parent = G4ScrollingFrame
+G4Option2.BackgroundColor3 = Color3.fromRGB(212,175,55)
+G4Option2.Position = UDim2.new(0, 197.5, 0, 60)
+G4Option2.Size = UDim2.new(0, 187.5, 0, 50)
+-----------------------G4ColorSet-----------------------
+---------------------G4TextButton1----------------------
+G4TextButton1.Name = 'G4TextButton1'
+G4TextButton1.Parent = G4Option2
+G4TextButton1.BackgroundTransparency = 1
+G4TextButton1.Text = 'OptionColors'
+G4TextButton1.TextSize = 30
+G4TextButton1.Position = UDim2.new(0, 0, 0, 0)
+G4TextButton1.Size = UDim2.new(0, 187.5, 0, 50)
+G4TextButton1.TextColor3 = Color3.fromRGB(255, 255, 255)
+G4TextButton1.Font = Enum.Font.GothamBold
+--[[---------------------Owner-------------------------]]
+------------------------Image5--------------------------
+Image5.Name = "CloseButton"
+Image5.Parent = GUIImage
+Image5.BackgroundColor3 = Color3.fromRGB(212,175,55)
+Image5.BorderSizePixel = 0
+Image5.Position = UDim2.new(0, 5, 0, 225)
+Image5.Size = UDim2.new(0, 50, 0, 50)
+Image5.Image = 'rbxassetid://10768203268'
+Image5.MouseButton1Click:Connect(function()
+	G1Home.Visible = false
+	G2Script.Visible = false
+	G3CMD.Visible = false
+	G4Option.Visible = false
+	G5Owner.Visible = true
+end)
+------------------------G5Owner--------------------------
+G5Owner.Name = "GUI1"
+G5Owner.Parent = GUI
+G5Owner.Position = UDim2.new(0, 0, 0, 0)
+G5Owner.Size = UDim2.new(0, 450, 0, 280)
+G5Owner.Visible = false
+G5Owner.BackgroundTransparency = 1
+------------------------G5Owner1-------------------------
+G5Owner1.Name = "G3CMD1"
+G5Owner1.Parent = G5Owner
+G5Owner1.BackgroundColor3 = Color3.fromRGB(30,30,30)
+G5Owner1.Position = UDim2.new(0, 20, 0, 40)
+G5Owner1.Size = UDim2.new(0, 410, 0, 220)
+------------------------G5Image--------------------------
+local Url1 = Ps:GetUserThumbnailAsync(651400375, Enum.ThumbnailType.AvatarThumbnail, Enum.ThumbnailSize.Size420x420)
+G5Image.BackgroundColor3 = Color3.fromRGB(30,30,30)
+G5Image.Name = "G5Image"
+G5Image.Parent = G5Owner1
+G5Image.BorderSizePixel = 0
+G5Image.Position = UDim2.new(0, 20, 0, 20)
+G5Image.Size = UDim2.new(0, 100, 0, 100)
+G5Image.Image = Url1
+------------------------G5Text1--------------------------
+G5Text1.Name = "G1Text1"
+G5Text1.Parent = G5Owner1
+G5Text1.Position = UDim2.new(0, 158, 0, 14)
+G5Text1.Size = UDim2.new(0, 100, 0, 33)
+G5Text1.Font = Enum.Font.GothamBold
+G5Text1.TextXAlignment = Enum.TextXAlignment.Left
+G5Text1.TextYAlignment = Enum.TextYAlignment.Bottom
+G5Text1.Text = ' My Discord -> \n \"OuiSom89#7276\"'
+G5Text1.TextColor3 = Color3.fromRGB(255, 255, 255)
+G5Text1.TextSize = 14.000
+G5Text1.BackgroundTransparency = 1
+------------------------G5Text2--------------------------
+G5Text2.Name = "G5Text2"
+G5Text2.Parent = G5Owner1
+G5Text2.Position = UDim2.new(0, 158, 0, 47)
+G5Text2.Size = UDim2.new(0, 100, 0, 33)
+G5Text2.Font = Enum.Font.GothamBold
+G5Text2.TextXAlignment = Enum.TextXAlignment.Left
+G5Text2.TextYAlignment = Enum.TextYAlignment.Bottom
+G5Text2.Text = ' My Discord Serveur -> \n \"discord.gg/W7VHxeP4ks\"'
+G5Text2.TextColor3 = Color3.fromRGB(255, 255, 255)
+G5Text2.TextSize = 14.000
+G5Text2.BackgroundTransparency = 1
+------------------------G5Text3--------------------------
+G5Text3.Name = "G1Text1"
+G5Text3.Parent = G5Owner1
+G5Text3.Position = UDim2.new(0, 158, 0, 80)
+G5Text3.Size = UDim2.new(0, 100, 0, 33)
+G5Text3.Font = Enum.Font.GothamBold
+G5Text3.TextXAlignment = Enum.TextXAlignment.Left
+G5Text3.TextYAlignment = Enum.TextYAlignment.Bottom
+G5Text3.Text = ' My WeAreDevs account ->\n \"OuiSom89\"'
+G5Text3.TextColor3 = Color3.fromRGB(255, 255, 255)
+G5Text3.TextSize = 14.000
+G5Text3.BackgroundTransparency = 1
+------------------------G5Image2-------------------------
+G5Image2.BackgroundColor3 = Color3.fromRGB(30,30,30)
+G5Image2.Name = "G5Image2"
+G5Image2.Parent = G5Owner1
+G5Image2.BorderSizePixel = 0
+G5Image2.Position = UDim2.new(0, 125, 0, 20)
+G5Image2.Size = UDim2.new(0, 33, 0, 33)
+G5Image2.Image = 'rbxassetid://10776751442'
+------------------------G5Image3-------------------------
+G5Image3.BackgroundColor3 = Color3.fromRGB(30,30,30)
+G5Image3.Name = "G5Image3"
+G5Image3.Parent = G5Owner1
+G5Image3.BorderSizePixel = 0
+G5Image3.Position = UDim2.new(0, 125, 0, 53)
+G5Image3.Size = UDim2.new(0, 33, 0, 33)
+G5Image3.Image = 'rbxassetid://10776751442'
+------------------------G5Image4-------------------------
+G5Image4.BackgroundColor3 = Color3.fromRGB(30,30,30)
+G5Image4.Name = "G5Image4"
+G5Image4.Parent = G5Owner1
+G5Image4.BorderSizePixel = 0
+G5Image4.Position = UDim2.new(0, 125, 0, 86)
+G5Image4.Size = UDim2.new(0, 33, 0, 33)
+G5Image4.Image = 'rbxassetid://10807356259'
+
+KeyHideGUI = "j"
+plr = game.Players.LocalPlayer
+mouse = plr:GetMouse()
+mouse.KeyDown:connect(function(key)
+ 
+if key == KeyHideGUI then
+	if FirstGUI.Visible == true then
+		FirstGUI.Visible = false
+	else FirstGUI.Visible = true
+  end
+end
+end)
