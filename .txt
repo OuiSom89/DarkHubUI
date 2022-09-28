@@ -218,6 +218,7 @@ G1Text1.TextColor3 = Color3.fromRGB(255, 255, 255)
 G1Text1.TextSize = 20.000
 G1Text1.BackgroundTransparency = 1
 ------------------------G1Update--------------------------
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OuiSom89/Update/main/Update.txt"))()
 G1Update.Name = "G1Update"
 G1Update.Parent = G1Home2
 G1Update.Position = UDim2.new(0, 10, 0, 10)
@@ -227,7 +228,7 @@ G1Update.BorderSizePixel = 0
 G1Update.Font = Enum.Font.GothamBold
 G1Update.TextXAlignment = Enum.TextXAlignment.Left
 G1Update.TextYAlignment = Enum.TextYAlignment.Top
-G1Update.Text = "Update :\n\nI have finish a GUI"
+G1Update.Text = UpdateTxt
 G1Update.TextColor3 = Color3.fromRGB(255, 255, 255)
 G1Update.TextSize = 14.000
 --[[-----------------------Script-----------------------]]
